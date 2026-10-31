@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex</title>
+    <style>
+        .container{
+            display:flex;
+            gap: 20px;
+        }
+        .box{
+            background-color: seagreen;
+            padding: 20px;
+            border-radius: 10px;
+            color: aliceblue;
+        }
+        .itemes-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+
+        }
+        .item{
+            width: 100px;
+            padding: 10px;
+            background-color: chocolate;
+        }
+            @media screen and (max-width:576px) {
+            .container{
+                flex-direction: column;
+            }
+            .item{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Lets Explore Flex</h2>
+    <div class="container">
+        <div class="box">
+            <h3>box-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, error sunt. Nulla labore reiciendis praesentium? Itaque, quas fuga quae perspiciatis ipsam velit facilis veniam veritatis tempora explicabo ab sed magnam placeat inventore earum id tenetur praesentium nulla perferendis nesciunt esse iure eligendi laboriosam aliquam! Porro mollitia deserunt odio culpa. Ducimus!</p>
+        </div>
+        <div class="box">
+            <h3>box-2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum beatae quasi tenetur! Iste assumenda ut vel veritatis saepe magni obcaecati, exercitationem delectus distinctio nihil est placeat, quas provident numquam fugiat nam sit? Molestias est incidunt accusantium nisi dolorum a earum sed porro similique dolorem. Dolores excepturi atque reiciendis sint praesentium.</p>
+        </div>
+        <div class="box">
+            <h3>box-3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci officiis laborum iure dolores, magni placeat autem accusamus reprehenderit libero rerum corrupti. Molestias accusamus placeat impedit vero! Repellendus iusto omnis magnam iste laborum et suscipit quibusdam impedit placeat fuga quaerat sequi error tenetur debitis facere corrupti perferendis, illo, illum natus?</p>
+        </div>
+
+    </div>
+    <div class="itemes-container">
+        <div class="item">box-1</div>
+        <div class="item">box-2</div>
+        <div class="item">box-3</div>
+        <div class="item">box-4</div>
+        <div class="item">box-5</div>
+        <div class="item">box-6</div>
+        <div class="item">box-7</div>
+        <div class="item">box-8</div>
+        <div class="item">box-9</div>
+        <div class="item">box-10</div>
+        <div class="item">box-11</div>
+        <div class="item">box-12</div>
+        <div class="item">box-13</div>
+        <div class="item">box-14</div>
+        <div class="item">box-15</div>
+        <div class="item">box-16</div>
+        <div class="item">box-17</div>
+        <div class="item">box-18</div>
+        <div class="item">box-19</div>
+        <div class="item">box-20</div>
+    </div>
+</body>
+</html>
